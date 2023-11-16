@@ -19,10 +19,16 @@ nav{
   overflow: hidden;
   width: 98%;
   position: fixed;
+  font-size: 20px;
+}
+nav ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
 }
 nav ul li{
     display: inline-block;
-    list-style-type: none;
     color: #ffffff;
 }
 nav ul li a{
@@ -37,4 +43,25 @@ nav ul li:hover{
 }
 nav ul li:hover a{
   color: #ffffff;
+}
+
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  }
+
+nav ul li {
+  display:inline-block;
+  }
+
+nav a {
+  display:block;
+  padding:0 10px;	
+  color:#FFF;
+  font-size:20px;
+  line-height: 60px;
+  text-decoration:none;
 }
