@@ -1,0 +1,28 @@
+nav{
+  font-family: 'Cinzel', serif;
+  background-color: #64B058;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    color: #ffffff;
+}
+nav ul li a{
+  color:  #000000;
+  display: block;
+  line-height: 4px;
+  text-decoration: none;
+  padding: 20px;
+}
+nav ul li:hover{
+  background-color: #0A4600;
+}
+nav ul li:hover a{
+  color: #ffffff;
+}
