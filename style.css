@@ -1,10 +1,15 @@
 /*This is main stylesheet*::after
 /*colour scheme*::after
-/*sky #A7ECF0 rgba(0,212,255,1)
-/*green #177909 rgba(23,121,9,1)
-/*dark blue #020024 rgba(2,0,36,1)
-/*white #ffffff rgb(255, 255, 255)
-/*black #000000 rgb(0, 0, 0)*/
+/*Background Colour #97D38D
+/*Heading Colour #000033
+/*Body Text #0A4600
+/*Call to Attention #1E6912
+/*Navigation Bar #64B058
+/*Footer #1E6B94*/
+
+body{
+background: #97D38D ;
+}
 nav{
   font-family: 'Cinzel', serif;
   background-color: #64B058;
@@ -12,7 +17,7 @@ nav{
   color: #ffffff;
   display: block;
   overflow: hidden;
-  width: 100%;
+  width: 98%;
   position: fixed;
 }
 nav ul li{
@@ -23,12 +28,12 @@ nav ul li{
 nav ul li a{
   color:  #000000;
   display: block;
-  line-height: 4px;
+  line-height: 5px;
   text-decoration: none;
   padding: 20px;
 }
 nav ul li:hover{
-  background-color: #0A4600;
+  background-color: #1E6912;
 }
 nav ul li:hover a{
   color: #ffffff;
