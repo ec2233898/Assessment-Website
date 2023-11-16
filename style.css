@@ -1,7 +1,14 @@
+/*This is main stylesheet*::after
+/*colour scheme*::after
+/*sky #A7ECF0 rgba(0,212,255,1)
+/*green #177909 rgba(23,121,9,1)
+/*dark blue #020024 rgba(2,0,36,1)
+/*white #ffffff rgb(255, 255, 255)
+/*black #000000 rgb(0, 0, 0)*/
 nav{
   font-family: 'Cinzel', serif;
   background-color: #64B058;
-  border: 1px solid #ffffff;
+  border: 1px solid #000000;
   color: #ffffff;
   display: block;
   overflow: hidden;
