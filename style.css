@@ -9,59 +9,100 @@
 
 body{
 background: #97D38D ;
+font-family: 'Playpen Sans', cursive;
 }
-nav{
+.topbar {
+  height:	80px;
+  background: #97D38D;
+    }
+
+.logo {
+  width:	200px;
+  height:	200px;
+  float:	left;
+}
+.navbar {
   font-family: 'Cinzel', serif;
+  overflow: hidden;
   background-color: #64B058;
   border: 1px solid #000000;
-  color: #ffffff;
-  display: block;
-  overflow: hidden;
-  width: 98%;
-  position: fixed;
-  font-size: 20px;
+  color: white;
 }
-nav ul{
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  position: relative;
-}
-nav ul li{
-    display: inline-block;
-    color: #ffffff;
-}
-nav ul li a{
-  color:  #000000;
-  display: block;
-  line-height: 5px;
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  padding: 20px;
 }
-nav ul li:hover{
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #1E6912;
+   color: white;
+}
+
+.navbar a.active {
+  color: white;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: #000000;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #64B058;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  border: 1px solid #000000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  z-index: 1;
+}
+
+.dropdown-content a:hover {
   background-color: #1E6912;
 }
-nav ul li:hover a{
-  color: #ffffff;
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.image-container {
+  position: relative;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom:10px ;
 }
 
-
-nav ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  position: relative;
-  }
-
-nav ul li {
-  display:inline-block;
-  }
-
-nav a {
-  display:block;
-  padding:0 10px;	
-  color:#FFF;
-  font-size:20px;
-  line-height: 60px;
-  text-decoration:none;
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 80%;
 }

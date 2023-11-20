@@ -15,31 +15,36 @@
 
 </head>
 <link rel="stylesheet" href="style.css">
-  <img src="images/logo3_circle.png" width="200">
-  <div>
-<nav>
-  <ul>
-   
-    <li><a href="index.html">Home</a></li>
-    <li><a href="topics.html">Topics</a>
-      <ul>
-          <li><a href="forests.html">Forests</a></li>
-          <li><a href="seas.html">Seas</a></li>
-          <li><a href="deserts.html">Deserts</a></li>
-          <li><a href="mountains.html">Mountains</a></li>
-      </ul> 
-    </li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    
-  </ul>
-</nav><br>
-  
+  <div class="topbar">
+  <img class="logo" src="images/logo3_circle.png">
     </div>
-<body>
+  <body>
+    <div class="navbar">
+    <a href="index.html">Home</a>
+  <div class="dropdown">
+     <button class="dropbtn">Topics
+       <i class="fa fa-caret-down"></i>
+     </button>
+     <div class="dropdown-content">
+    
+          <a href="forests.html">Forests</a>
+          <a href="seas.html">Seas</a>
+          <a href="deserts.html">Deserts</a>
+          <a href="mountains.html">Mountains</a>
+     </div>
+    </div>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    </div>
 
+   <div class="image-container">
    <img src="images/global.jpg" width="700px">
 
+         <div class="image-text">
+          <h2>GAIA</h2>
+          <p>Global Alliance for Innovative Action</p>
+         </div>
+     </div>
 </body>
 
 </html>
