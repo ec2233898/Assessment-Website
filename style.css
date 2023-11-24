@@ -129,6 +129,7 @@ footer{
 .column {
     width: 50%;
   }
+
 h2,h3{
   color: #0A4600;
 }
@@ -148,6 +149,9 @@ footer{
 .column {
     width: 100%;
 }
+.column1 {
+      width: 100%;
+  }
 h2,h3{
   color: #0A4600;
 }
