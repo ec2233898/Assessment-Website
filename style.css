@@ -152,18 +152,26 @@ form button{
   font-size: 15px;
   cursor: pointer;
 }
-
+.social-icons{
+  margin-top: 30px;
+}
+.social-icons i{
+  font-size: 22px;
+  margin: 10px;
+  cursor: pointer;
+}
 *{
   box-sizing: border-box;
 }
 .row {
     display: flex;
+  flex-flow: row wrape;
   text-align: center;
   justify-content: center;
 }
 .column {
   float: flex;
-  width: 25%;
+  width: 50%;
   padding: 10px;
 }
 
@@ -193,10 +201,9 @@ form button{
 
 /*****this is style for tablet******/
 @media screen and (max-width: 992px){
-.column {
+  .row .column{
     width: 50%;
-  
-}
+  }
 h2,h3 {
   color: #0A4600;
 }
@@ -214,9 +221,9 @@ footer{
 
 /*****this is style for phone******/
 @media screen and (max-width: 600px){
-.column {
-    width: 100%;
-}
+  .row .column{
+    width: 90%;
+  }
 h2,h3{
   color: #0A4600;
 }
@@ -231,7 +238,4 @@ footer{
   width: 100%;
   display: flex;
 }
-
-}
-
 }
