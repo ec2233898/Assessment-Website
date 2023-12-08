@@ -222,8 +222,16 @@ footer{
 
 /*****this is style for phone******/
 @media screen and (max-width: 600px){
-  .row .column{
-    width: 100%;
+  .row {
+      display: block;
+    flex-flow: row wrape;
+    text-align: center;
+    justify-content: center;
+  }
+  .column {
+    float: flex;
+    width: 50%;
+    padding: 10px;
   }
 h2,h3{
   color: #0A4600;
@@ -237,7 +245,38 @@ footer{
   left: 0;
   bottom: 0;
   width: 100%;
-  display: flex;
+  display: block;
 }
 
+  .footer div{
+    text-align: center;
+  }
+  form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+  }
+  form button{
+    background: transparent;
+    border: 2px solid #ffff;
+    color: #ffff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .social-icons{
+    margin-top: 30px;
+  }
+  .social-icons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+    color: #ffff;
+  }
 }
