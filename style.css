@@ -222,7 +222,7 @@ footer{
 /*****this is style for phone******/
 @media screen and (max-width: 600px){
   .row .column{
-    width: 90%;
+    width: 100%;
   }
 h2,h3{
   color: #0A4600;
@@ -238,4 +238,5 @@ footer{
   width: 100%;
   display: flex;
 }
+
 }
